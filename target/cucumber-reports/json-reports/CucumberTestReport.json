@@ -1,0 +1,193 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3384733,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.beforehook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 256019159,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Create a new Address",
+        "description": "",
+        "id": "test-cornershop;create-a-new-address",
+        "after": [
+          {
+            "result": {
+              "duration": 15398,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.CloseScenarios()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4289326303,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open Browser and navigate to \"https://web.cornershopapp.com/accounts/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://web.cornershopapp.com/accounts/login/",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.OpenBrowserAndNavigate(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8400335879,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on \"LogIn\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LogIn",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinitions.clickButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1933657025,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "put \"criarave@gmail.com\" and \"T0k3n123\" to login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "criarave@gmail.com",
+                  "offset": 5
+                },
+                {
+                  "val": "T0k3n123",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitions.LogIn(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6528244553,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Dismiss starter tutorial",
+            "match": {
+              "location": "StepDefinitions.DismissTutorial()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3708025,
+              "error_message": "java.lang.NoSuchMethodException: pageObjects.Address_po.name()\n\tat java.lang.Class.getMethod(Class.java:1786)\n\tat utils.SeleniumUtils.GetXpathByName(SeleniumUtils.java:128)\n\tat stepdefs.StepDefinitions.AddAddress(StepDefinitions.java:84)\n\tat ✽.And Add a new Address(Wizard.feature:20)\n",
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "Add a new Address",
+            "match": {
+              "location": "StepDefinitions.AddAddress(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "value"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "name",
+                  "Casa"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "AddressType",
+                  "Casa"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "StreetAddress",
+                  "qweasdasdasd"
+                ],
+                "line": 24
+              },
+              {
+                "cells": [
+                  "city",
+                  "Santiago"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "locality",
+                  "a"
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "country",
+                  "b"
+                ],
+                "line": 27
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Test Cornershop",
+    "description": "",
+    "id": "test-cornershop",
+    "keyword": "Feature",
+    "uri": "Wizard.feature"
+  }
+]

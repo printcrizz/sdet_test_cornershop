@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.414691">
+<testcase classname="Test Cornershop" name="Create a new Address" time="21.414691">
+<failure message="java.lang.NoSuchMethodException: pageObjects.Address_po.name()&#10;&#9;at java.lang.Class.getMethod(Class.java:1786)&#10;&#9;at utils.SeleniumUtils.GetXpathByName(SeleniumUtils.java:128)&#10;&#9;at stepdefs.StepDefinitions.AddAddress(StepDefinitions.java:84)&#10;&#9;at ✽.And Add a new Address(Wizard.feature:20)&#10;"><![CDATA[Given Open Browser and navigate to "https://web.cornershopapp.com/accounts/login/".passed
+When Click on "LogIn" button................................................passed
+And put "criarave@gmail.com" and "T0k3n123" to login........................passed
+And Dismiss starter tutorial................................................passed
+And Add a new Address.......................................................failed
+
+StackTrace:
+java.lang.NoSuchMethodException: pageObjects.Address_po.name()
+	at java.lang.Class.getMethod(Class.java:1786)
+	at utils.SeleniumUtils.GetXpathByName(SeleniumUtils.java:128)
+	at stepdefs.StepDefinitions.AddAddress(StepDefinitions.java:84)
+	at ✽.And Add a new Address(Wizard.feature:20)
+]]></failure>
+</testcase>
+</testsuite>

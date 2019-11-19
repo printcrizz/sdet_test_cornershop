@@ -1,0 +1,11 @@
+{
+  "NormasTexto": "De acuerdo a las normas que regulan el mercado financiero, como cliente de Inversiones Security, debes suscribir los contratos que son requeridos para operar en los productos disponibles según tu perfil de inversión. Todos los datos que completes a continuación te ayudarán a firmar estos documentos. Considera entre 5 y 10 minutos de tu tiempo.",
+  "FirmaDigital": "Firma Digital\nTe informamos que la suscripción electrónica de los contratos y/u otros documentos que acuerdes con las empresas que conforman Inversiones Security (Administradora General de Fondos Security S.A. y Valores Security S.A. Corredora de Bolsa), se realiza en conformidad con las normas y estándares establecidos en la Ley N° 19.799 que regula los documentos electrónicos y la firma electrónica, y las exigencias establecidas en normativa emitida por la Comisión para el Mercado Financiero para estos efectos. Nuestro proveedor del certificado de firma electrónica es, BPO Advisors, empresa acreditada como una Entidad Acreditadora de Firma Electrónica conforme la Ley 19.779.",
+  "USPerson": "Si eres US Person a los efectos de la Ley FATCA, te invitamos a realizar la firma de tus contratos con tu Ejecutivo de Inversión y no será posible llevarlo a cabo a través de la Web. Si tienes dudas, contacta a nuestro Servicio de Atención a Clientes al 2 2581 56 00.\nLa Ley FATCA (Foreign Account Tax Compliance Act) es la ley estadounidense de cumplimiento tributario de cuentas extranjeras, que tiene por objetivo el control de la evasión fiscal por parte del gobierno de Estados Unidos. Esto se logra mediante la identificación de los ciudadanos y residentes de ese país que tengan dinero o fondos depositados en instituciones financieras extranjeras.",
+  "DatosPersonalesHeader": "Datos Personales",
+  "DatosLaborales": "DATOS LABORALES",
+  "DireccionParticular": "DIRECCIÓN PARTICULAR",
+  "NumeroFiscalID": "Número Fiscal Identificador de Empresa Extranjera",
+  "RutEmpleador": "Rut Empleador",
+  "PoseeRut": "¿Su Empleador posee RUT chileno?"
+}

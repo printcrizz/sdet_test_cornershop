@@ -1,0 +1,49 @@
+ {
+  "properties":
+  [
+    {
+    "name": "webdriver.chrome.driver",
+    "value": "src/test/resources/drivers/chromedriver_mac"
+  },
+  {
+    "name": "DbUrl",
+    "value": "jdbc:sqlserver://10.24.69.23"
+  },
+  {
+    "name": "DbUser",
+    "value": "sql_fix"
+  },
+  {
+    "name": "DbPassword",
+    "value": "YnZz4A8h"
+  },
+  {
+    "name": "RestUrlTokenGeneration",
+    "value": "https://eservices.dev.inversionessecurity.cl/api/website/auth/login"
+  },
+  {
+    "name": "Invsec-Channel",
+    "value": "1"
+  },
+  {
+    "name": "Invsec-Version",
+    "value": "1"
+  },
+  {
+    "name": "PortalUrl",
+    "value": "http://www.dev.inversionessecurity.cl"
+  },
+  {
+    "name": "PortalCredentialsUser",
+    "value": "12485766k"
+  },
+  {
+    "name": "PortalCredentialsPassword",
+    "value": "1234asdf"
+  },
+  {
+    "name": "ScreenshotsDirectory",
+    "value": "test-output/Screenshots"
+  }
+  ]
+}
